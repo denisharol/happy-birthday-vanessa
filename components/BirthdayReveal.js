@@ -64,7 +64,7 @@ export default function BirthdayReveal({ onNext, logEgg }) {
             ${phase === 'center' ? 'mx-auto' : 'mx-0'}`}
         >
           <img 
-            src="/Vanessa/Img 1.jpeg" 
+            src="/vanessa/Img 1.jpeg" 
             className="w-full h-full object-cover rounded-lg" 
             alt="Vanessa" 
           />

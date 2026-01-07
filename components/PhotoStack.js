@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const VANESSA_IMAGES = Array.from({ length: 11 }, (_, i) => 
-  `/Vanessa/Img ${i + 1}.jpeg`
+  `/vanessa/Img ${i + 1}.jpeg`
 );
 
 export default function PhotoStack({ onNext }) {
